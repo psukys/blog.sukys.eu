@@ -5,10 +5,11 @@ function load_background_image(data) {
     // https://stackoverflow.com/questions/5057990/how-can-i-check-if-a-background-image-is-loaded
     $("<img/>").attr("src", "http://www.bing.com" + img.url).load(function () {
         $(this).remove(); // prevent memory leaks as @benweet suggested
-        $("body").css("background-image", "url(http://www.bing.com" + img.url + ")");
+        $(".bg-image").css("background-image", "url(http://www.bing.com" + img.url + ")");
         // add copyring attribution at footer
         $("div.mastfoot > div.inner").text("Image copyright: " + img.copyright);
         $("#cover").fadeOut(500);
+        $(".bg-image").fadeTo(2000, 0.3);
     });
 }
 

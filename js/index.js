@@ -1,13 +1,24 @@
 function load_background_image(data) {
-    var img = data.query.results.json.images;
+    let img = null,
+        cr = null;
+    if (!data.query.results) {
+        // use default image
+        let curr_url = window.location.href;
+        img = curr_url.substr(0, curr_url.lastIndexOf("/")) + "/img/shells.jpg";
+        cr = "user stux at https://pixabay.com/en/users/stux-12364/";
+    } else {
+        img = "http://www.bing.com" + data.query.results.json.images.url;
+        cr = data.query.results.json.images.copyright;
+    }
 
+    console.log('IMG is ' + img);
     // sort-of hack for figuring out when img is loaded
     // https://stackoverflow.com/questions/5057990/how-can-i-check-if-a-background-image-is-loaded
-    $("<img/>").attr("src", "http://www.bing.com" + img.url).load(function () {
+    $("<img/>").attr("src", img).on('load', function () {
         $(this).remove(); // prevent memory leaks as @benweet suggested
-        $(".bg-image").css("background-image", "url(http://www.bing.com" + img.url + ")");
+        $(".bg-image").css("background-image", "url(" + img + ")");
         // add copyring attribution at footer
-        $("div.mastfoot > div.inner").text("Image copyright: " + img.copyright);
+        $("div.mastfoot > div.inner").text("Image copyright: " + cr);
         $("#cover").fadeOut(500);
         $(".bg-image").fadeTo(2000, 0.3);
     });

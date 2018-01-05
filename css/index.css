@@ -177,7 +177,7 @@
         .masthead,
         .mastfoot,
         .cover-container {
-            width: 700px;
+            width: 100%;
         }
     }
 #cover {

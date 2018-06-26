@@ -1,0 +1,231 @@
+{
+  "basics": {
+    "name": "Paulius Šukys",
+    "label": "",
+    "picture": "",
+    "email": "paul.sukys@gmail.com",
+    "phone": "",
+    "website": "http://sukys.eu",
+    "summary": "I am an energetic and determined professional, eager to develop and maintain sustainability. Having knowledge in various domains, I am able to quickly pick up technologies and professionally crack the problem.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Demodesk GmbH",
+      "position": "IDP Student",
+      "website": "https://www.demodesk.com",
+      "startDate": "2017-10-01",
+      "endDate": "2017-04-01",
+      "summary": "Built a Service-Oriented-Architecture based data pipeline for real-time conversation analytics. Implemented and adjusted a NLP based keyword matching solution.",
+      "highlights": [
+        "Integrated and adjusted a self hosted Kaldi Automated Speech Recognition engine as a service",
+        "Built and adjusted GStreamer media pipeline",
+        "Implemented NLP keyword matching solution based on gensim library and NLTK for processing text"
+      ]
+    },
+    {
+      "company": "TUM Engineering Risk Analysis Group",
+      "position": "Research assistant",
+      "website": "https://www.era.bgu.tum.de/era-group",
+      "startDate": "2016-04-01",
+      "endDate": "2017-04-01",
+      "summary": "Development of a Bayesian network library for internal use.",
+      "highlights": [
+        "Initial implementation in MATLAB compatible Octave prgramming language",
+        "Reimplementation and further development in Python3"
+      ]
+    },
+    {
+      "company": "Max Planck Institute For Social Law And Social Policy",
+      "position": "Research assistant",
+      "website": "http://www.mpisoc.mpg.de/2285/en",
+      "startDate": "2016-06-01",
+      "endDate": "2017-04-01",
+      "summary": "Built and implemented tools for automated translation via Moses statistical machine translation system",
+      "highlights": [
+        "Rebuilt Moses with adjusted internals for REST API",
+        "Developed REST API for translating several languages, that routes through several VMs"
+      ]
+    },
+    {
+      "company": "Bentley Systems",
+      "position": "Software Engineer",
+      "website": "https://www.bentley.com",
+      "startDate": "2015-02-01",
+      "endDate": "2015-09-01",
+      "summary": "QA test automation for products on Windows OS.",
+      "highlights": [
+        "Worked and adjusted with in-house test deployment system",
+        "Wrote and adjusted tests for TestComplete tool"
+      ]
+    },
+    {
+      "company": "Elinta Motors",
+      "position": "Software Engineering intern",
+      "website": "http://www.elintamotors.com",
+      "startDate": "2014-10-01",
+      "endDate": "2015-02-01",
+      "summary": "Developed software for automotive communication connection for hybrids vehicles.",
+      "highlights": [
+        "Developed a communication reverse engineering tool for extracting meaningful data",
+        "Developed CAN reader and wireless transmitter",
+        "Worked on enabling three-way communication between combustion and electric engines, and dashboard"
+      ]
+    },
+    {
+      "company": "Bentley Systems",
+      "position": "Software Engineering intern",
+      "website": "https://www.bentley.com",
+      "startDate": "2014-06-01",
+      "endDate": "2014-09-01",
+      "summary": "QA test automation for products on Windows OS.",
+      "highlights": []
+    },
+    {
+      "company": "Bentley Systems",
+      "position": "Software Engineering intern",
+      "website": "https://www.bentley.com",
+      "startDate": "2013-11-01",
+      "endDate": "2013-02-01",
+      "summary": "QA test automation for products on Windows OS.",
+      "highlights": []
+    },
+    {
+      "company": "Bentley Systems",
+      "position": "Software Engineering intern",
+      "website": "https://www.bentley.com",
+      "startDate": "2013-06-01",
+      "endDate": "2013-09-01",
+      "summary": "QA test automation for products on Windows OS.",
+      "highlights": []
+    },
+    {
+      "company": "KTU",
+      "position": "Technician",
+      "website": "https://www.ktu.edu",
+      "startDate": "2013-04-01",
+      "endDate": "2015-06-01",
+      "summary": "Dormitory network administration.",
+      "highlights": [
+        "Maintained 200 users, 20 wireless access points and surveilance camers for a single dormitory",
+        "Developed software for user agreement automation form for joining the network"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "remoto",
+      "position": "",
+      "website": "https://github.com/alfredodeza/remoto",
+      "startDate": "2018-03-01",
+      "endDate": "2018-07-01",
+      "summary": "Various features for remoto - remote command executor via ssh and Python.",
+      "highlights": []
+    },
+    {
+      "organization": "TUM Campus App",
+      "position": "",
+      "website": "https://github.com/TCA-Team/TumCampusApp",
+      "startDate": "2017-10-01",
+      "endDate": "2018-03-01",
+      "summary": "Android application for TUM students. Worked on fixing issues and introducing CI/CD methodologies.",
+      "highlights": []
+    },
+    {
+      "organization": "P2P Gossip module",
+      "position": "",
+      "website": "https://gitlab.com/psukys-tum/p2p-33-gossip",
+      "startDate": "2017-04-01",
+      "endDate": "2017-09-01",
+      "summary": "P2P module for maintaining interconnected nodes via Brahm's algorithm.",
+      "highlights": []
+    },
+    {
+      "organization": "RPi surveillance camera",
+      "position": "",
+      "website": "https://gitlab.com/psukys/namu-kamera",
+      "startDate": "2017-07-01",
+      "endDate": "2017-10-01",
+      "summary": "Surveillance camera that detects movement and logs clips to Dropbox.",
+      "highlights": []
+    },
+    {
+      "organization": "concert.trip",
+      "position": "",
+      "website": "https://github.com/VadimDez/concert.trip",
+      "startDate": "2017-06-24",
+      "endDate": "2017-06-25",
+      "summary": "booking.com hackathon project to give full concert plan (trip, accommodation, and concert) based on users Spotify favorite artists.",
+      "highlights": []
+    },
+    {
+      "organization": "FreshRSS",
+      "position": "",
+      "website": "https://github.com/FreshRSS/FreshRSS",
+      "startDate": "2017-04-01",
+      "endDate": "2017-05-01",
+      "summary": "Self hostable RSS feed aggregator. Added several features.",
+      "highlights": []
+    },
+    {
+      "organization": "Liths Memberlist",
+      "position": "",
+      "website": "https://gitlab.com/liths-rs/memberlist",
+      "startDate": "2017-04-01",
+      "endDate": "2017-09-01",
+      "summary": "Memberlist that scrapes and updates relevant information about members.",
+      "highlights": []
+    },
+    {
+      "organization": "Scout ID management platform",
+      "position": "",
+      "website": "https://github.com/psukys/skautu-pazymejimai",
+      "startDate": "2015-03-01",
+      "endDate": "2015-12-01",
+      "summary": "Registration for ID, status preview and management platform.",
+      "highlights": []
+    },
+    {
+      "organization": "SmartFood multi-agent system",
+      "position": "",
+      "website": "https://github.com/shookees-KTU/SmartFood_old",
+      "startDate": "2014-02-01",
+      "endDate": "2014-06-01",
+      "summary": "JADE based agent system for tracking personal food via labels. Agents implemented: webcam barcode reader; food description fetcher; food expiry warner; recipe fetcher.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technical University of Munich",
+      "area": "Informatics",
+      "studyType": "Master",
+      "startDate": "2015-10-01",
+      "endDate": "2018-10-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Kaunas University of Technology",
+      "area": "Informatics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-01",
+      "endDate": "2015-07-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}

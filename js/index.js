@@ -11,7 +11,7 @@ function load_background_image(data) {
         cr = data.query.results.json.images.copyright;
     }
 
-    console.log('IMG is ' + img);
+    console.debug('IMG is ' + img);
     // sort-of hack for figuring out when img is loaded
     // https://stackoverflow.com/questions/5057990/how-can-i-check-if-a-background-image-is-loaded
     $("<img/>").attr("src", img).on('load', function () {

@@ -7,7 +7,7 @@ function load_background_image(data) {
         img = curr_url.substr(0, curr_url.lastIndexOf("/")) + "/img/shells.jpg";
         cr = "user stux at https://pixabay.com/en/users/stux-12364/";
     } else {
-        img = "http://www.bing.com" + data.query.results.json.images.url;
+        img = "https://www.bing.com" + data.query.results.json.images.url;
         cr = data.query.results.json.images.copyright;
     }
 

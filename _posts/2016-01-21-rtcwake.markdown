@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "RTC based alarm clock"
+date:   2015-03-18 13:17:00 +0200
+categories: five-minute-crafts
+---
+As my cell phone is keen on not getting me up in the mornings due to various reasons, I longed for something that would fix this problem. *Jurgis Did - Do You Own Your Demons* was the motivation behind DIY attempt at doing this.
+
+<iframe frameborder="no" height="150" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193443693&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe>
+
+The whole project revolves around RTC (real time clock) based program called `rtcwake`.
+My script suspends, *wakes up* at specific time and plays the song.
+Also, due to quality sleep concerns I've used [sleepyti.me](sleepyti.me)'s algorithm to calculate best wake up time based on REM (rapid eye movement - deep sleep) cycles.
+
+Further help can be seen in the script:
+
+<script src="https://gist.github.com/psukys/140d8ced1d172faca70c.js"></script>
